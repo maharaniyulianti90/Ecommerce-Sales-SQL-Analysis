@@ -147,3 +147,6 @@ Saya membedah data pelanggan yang baru bergabung dalam 6 bulan terakhir. Terliha
 Insight Bisnis: Pertumbuhan pelanggan baru cukup stabil di angka ratusan setiap bulannya. Ini adalah indikator bahwa akuisisi pelanggan masih berjalan dengan baik.
 Rekomendasi Strategis: Tim Marketing dapat meluncurkan kampanye "Referral Code" khusus untuk segmen ini guna mempercepat pertumbuhan. Selain itu, karena porsi wanita di pelanggan baru masih kecil, ada peluang besar untuk membuat kampanye bertema Woman-Focused guna menyeimbangkan demografi.
 
+## Dashboard Analysis 
+Setelah melakukan analisa menggunakan SQL, selanjutnya adalah mengolah hasil analisa tersebut kedalam dashboard sederhana yang mencakup informasi dalam bentuk yang lebih interaktif meggunakan Power BI
+<img width="1241" height="1754" alt="Portofolio_SQL Global_Mart_page-0001" src="https://github.com/user-attachments/assets/76da2be1-6b19-4cdb-a8d0-70a747cc6129" />
