@@ -34,6 +34,7 @@ sex
 FROM customer_details 
 WHERE sex in ('Male','Female')
 GROUP BY sex;
+</details>
 
 **Analisa:**
 Berdasarkan hasil berikut ternyata jumlah pelanggan toko global mart didominasi oleh laki-laki dengan jumlah hampir 3x lipat dengan jumlah pelanggan perempuan. 
