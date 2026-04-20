@@ -34,6 +34,8 @@ sex
 FROM customer_details
 WHERE sex in ('Male','Female')
 GROUP BY sex;
+
+
 </details>
 
 **Hasil :**
