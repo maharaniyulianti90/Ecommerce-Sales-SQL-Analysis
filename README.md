@@ -85,3 +85,14 @@ Strategi : tim marketing harus memaksimalkan pemasaran produk pelanggan laki lak
 **Analisa:**
 
 
+<details>
+<summary>Click to view SQL Syntax 🔑</summary>
+
+SQL
+SELECT 
+COUNT (customer_id) as total_customers,
+sex
+FROM customer_details
+WHERE sex in ('Male','Female')
+GROUP BY sex;
+</details>
