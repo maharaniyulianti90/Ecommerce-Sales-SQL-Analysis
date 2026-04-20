@@ -21,14 +21,21 @@ Saya berperan sebagai Junior Data Analyst di sebuah startup E-Commerce. Perusaha
 - `dataset/`: Folder berisi file CSV mentah.
 
 ## Deep Dive Analysis
-### 2. Customer Loyalty (Top Spender)
-**Narrative:** Tim Marketing ingin memberikan reward...
+### 1. Mengenal Demografi Pelanggan
+**Narrative:** "Tim Marketing ingin membuat kampanye iklan yang tersegmentasi. Langkah awal yang mereka minta adalah melihat distribusi gender dari total pelanggan kita."
 
 <details>
 <summary>Click to view SQL Syntax 🔑</summary>
 
 ```sql
-SELECT customer_id, SUM(basket_count) 
-FROM basket_details 
-GROUP BY customer_id 
-ORDER BY 2 DESC LIMIT 10;
+SELECT 
+COUNT (customer_id) as total_customers,
+sex 
+FROM customer_details 
+WHERE sex in ('Male','Female')
+GROUP BY sex;
+
+**Analisa:**
+Berdasarkan hasil berikut ternyata jumlah pelanggan toko global mart didominasi oleh laki-laki dengan jumlah hampir 3x lipat dengan jumlah pelanggan perempuan. 
+Strategi : tim marketing harus memaksimalkan pemasaran produk pelanggan laki laki atau mencari tahu mengapa distribusi pasar tidak maksimal pada segmen perempuan. 
+
