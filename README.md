@@ -36,6 +36,9 @@ WHERE sex in ('Male','Female')
 GROUP BY sex;
 </details>
 
+Hasil :
+<img width="498" height="320" alt="image" src="https://github.com/user-attachments/assets/492e4475-5023-46a5-8f8e-de9095c20bce" />
+
 **Analisa:**
 Berdasarkan hasil berikut ternyata jumlah pelanggan toko global mart didominasi oleh laki-laki dengan jumlah hampir 3x lipat dengan jumlah pelanggan perempuan. 
 Strategi : tim marketing harus memaksimalkan pemasaran produk pelanggan laki laki atau mencari tahu mengapa distribusi pasar tidak maksimal pada segmen perempuan. 
