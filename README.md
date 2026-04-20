@@ -30,11 +30,10 @@ Saya berperan sebagai Junior Data Analyst di sebuah startup E-Commerce. Perusaha
 ```sql
 SELECT 
 COUNT (customer_id) as total_customers,
-sex 
-FROM customer_details 
+sex
+FROM customer_details
 WHERE sex in ('Male','Female')
 GROUP BY sex;
-
 </details>
 
 **Hasil :**
