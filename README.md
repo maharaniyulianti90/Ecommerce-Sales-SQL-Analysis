@@ -149,4 +149,5 @@ Rekomendasi Strategis: Tim Marketing dapat meluncurkan kampanye "Referral Code" 
 
 ## Dashboard Analysis 
 Setelah melakukan analisa menggunakan SQL, selanjutnya adalah mengolah hasil analisa tersebut kedalam dashboard sederhana yang mencakup informasi dalam bentuk yang lebih interaktif meggunakan Power BI
-<img width="1241" height="1754" alt="Portofolio_SQL Global_Mart_page-0001" src="https://github.com/user-attachments/assets/76da2be1-6b19-4cdb-a8d0-70a747cc6129" />
+<img width="2075" height="1200" alt="Portofolio_SQL Global_MARTT_page-0001" src="https://github.com/user-attachments/assets/3c0249db-aaf1-4b11-ac48-df6b1bda9569" />
+
