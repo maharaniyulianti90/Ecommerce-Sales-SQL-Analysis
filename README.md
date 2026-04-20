@@ -24,24 +24,64 @@ Saya berperan sebagai Junior Data Analyst di sebuah startup E-Commerce. Perusaha
 ### 1. Mengenal Demografi Pelanggan
 **Narrative:** "Tim Marketing ingin membuat kampanye iklan yang tersegmentasi. Langkah awal yang mereka minta adalah melihat distribusi gender dari total pelanggan kita."
 
-<details>
-<summary>Click to view SQL Syntax 🔑</summary>
-
-```sql
+**Query:** 
 SELECT 
-COUNT (customer_id) as total_customers,
-sex
-FROM customer_details
-WHERE sex in ('Male','Female')
+COUNT (customer_id) AS total_customers,
+sex 
+FROM customer_details 
+WHERE sex IN ('Male','Female')
 GROUP BY sex;
 
-
-</details>
-
-**Hasil :**
-<img width="498" height="320" alt="image" src="https://github.com/user-attachments/assets/492e4475-5023-46a5-8f8e-de9095c20bce" />
+**Hasil:**
+<img width="498" height="320" alt="image" src="https://github.com/user-attachments/assets/a44671d9-42e6-49d1-ad22-1cb5dc6ff549" />
 
 **Analisa:**
 Berdasarkan hasil berikut ternyata jumlah pelanggan toko global mart didominasi oleh laki-laki dengan jumlah hampir 3x lipat dengan jumlah pelanggan perempuan. 
 Strategi : tim marketing harus memaksimalkan pemasaran produk pelanggan laki laki atau mencari tahu mengapa distribusi pasar tidak maksimal pada segmen perempuan. 
+
+### 2. 
+**Narrative:** 
+
+**Query:** 
+
+**Hasil:**
+
+**Analisa:**
+
+### 3. 
+**Narrative:** 
+
+**Query:** 
+
+**Hasil:**
+
+**Analisa:**
+
+### 4. 
+**Narrative:** 
+
+**Query:** 
+
+**Hasil:**
+
+**Analisa:**
+
+### 5. 
+**Narrative:** 
+
+**Query:** 
+
+**Hasil:**
+
+**Analisa:**
+
+### 6. 
+**Narrative:** 
+
+**Query:** 
+
+**Hasil:**
+
+**Analisa:**
+
 
